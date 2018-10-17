@@ -88,6 +88,7 @@ void init(OptionsMap& o) {
   o["Clear Hash"]            << Option(on_clear_hash);
   o["Ponder"]                << Option(false);
   o["MultiPV"]               << Option(1, 1, 500);
+  o["Move Overhead"]         << Option(30, 0, 5000);
   o["UCI_Chess960"]          << Option(false);
   o["NeverClearHash"]        << Option(false);
   o["HashFile"]              << Option("hash.hsh", on_HashFile);
