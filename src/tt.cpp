@@ -36,10 +36,10 @@ using std::string;
 #include "misc.h"
 #include "tt.h"
 #include "uci.h"
-#include "windows.h"
+
 
 #ifdef _WIN32
-
+#include "windows.h"
 #include <windows.h>
 #undef max
 #undef min
